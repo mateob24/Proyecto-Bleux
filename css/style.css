@@ -738,7 +738,7 @@ footer img{
 
     .plans p{
         font-size: 17px;
-        width: 480px;
+        width: 440px;
     }   
 
     .boxes{
@@ -752,7 +752,11 @@ footer img{
     }
 
     .sociales{
-        width: 200px;
+        width: 190px;
+    }
+
+    .logoRedes{
+        height: 26px;
     }
 }
 

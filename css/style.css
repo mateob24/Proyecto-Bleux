@@ -1,0 +1,760 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e172f;
+}
+
+.enlaces{
+    width: 40%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: gray;
+}
+
+.enlaces a:hover{
+    color: white
+}
+
+#descarga{
+    height: 46px;
+    width: 120px;
+    font-size: 17px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(90deg, #9a5bff 10%, #8d49fb 20%, #4f42fff7 75%, #4f42ff 100%);
+}
+
+.productPage{
+    width: 100%;
+    height: 600px;
+    background-size: 50% 100%;
+    background-image:url(../images/fondoHojas.jpg);
+    background-color: #2e2550;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.texto{
+    width: 460px;
+    height: 360px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    color: white;
+}
+
+.texto h1{
+    font-size: 72px;
+}
+
+.texto p{
+    font-size: 21px;
+    width: 460px;
+}
+
+#botones{
+    height: 58px;
+    width: 330px;
+    border-radius: 6px;
+    border: 2px solid rgba(128, 128, 128, 0.445);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.detalles{
+    height: 45px;
+    border-radius: 4px;
+    font-size: 17px;
+    border: 2px solid white;
+}
+
+.uno{
+    width: 180px;
+    color: #F41486;
+    background-color: white;
+}
+
+.dos{
+    width: 130px;
+    color: white;
+    background-color: #2e2550;
+}
+
+#phone{
+    height: 430px;
+    padding-top: 30px;
+    padding-right: 120px;
+}
+
+.funciones{
+    height: 500px;
+    background-color: #F1F2F7;
+}
+
+.funciones h1{
+    font-size: 58px;
+    padding: 36px 0px;
+    color: #F41486;
+    text-align: center;
+}
+
+#pc{
+    height: 280px;
+}
+
+.contenido{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#parrafo{
+    height: 280px;
+    width: 400px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#parrafo h2{
+    font-size: 34px;
+    padding-bottom: 10px;
+    color: #C24D89;
+}
+
+#parrafo h4{
+    font-size: 22px;
+    color: #EE2F91;
+}
+
+#parrafo ul{
+    padding: 0px;
+}
+
+#parrafo ul li{
+    padding-left: 2rem;
+    background-size: 1.6rem 1.6rem;
+    background-image: url(../images/chulos.png);
+    background-repeat: no-repeat;
+    list-style: none; 
+}
+
+.pricing{
+    width: 100%;
+    padding-bottom: 44px;
+    color: white;
+    background-color: #1E172F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.plans{
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.plans h1{
+    font-size: 57px;
+
+}
+
+.plans p{
+    font-size: 18px;
+    width: 650px;
+}
+
+.boxes{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.boxes article{
+    height: 60%;
+    width: 20%;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.img{
+    height: 52%;
+    padding-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img img{
+    height: 90px;
+    width: 90px;
+}
+
+#rosa{
+    font-size: 20px;
+    color: #ef499e;
+}
+
+#azul{
+    font-size: 20px;
+    color: #263247;
+}
+
+#costos{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#costos p{
+    font-size: 37px;
+}
+
+#costos span{
+    font-size: 16px;
+}
+
+.num{
+    font-size: 40px;
+}
+
+.cuerpo{
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lista li{
+    margin-bottom: 6px;
+}
+
+.estrella{
+    list-style: '★';
+}
+
+.chulo{
+    list-style: '✔';
+}
+
+.equis{
+    list-style: '✘';
+}
+
+.text{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.text p{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    width: 80%;
+}
+
+#costos{
+    background-color: #F5F5F5;
+}
+
+.ultima{
+    height: 64px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    background-color: #F5F5F5;
+    justify-content: center;
+    align-items: center;
+}
+
+.suscribirse{
+    height: 44px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+    background-color: #2e2550;
+    border: none;
+}
+
+.one{
+    background-image: linear-gradient(90deg, #fd7fc0 10%, #ff6cb8 20%, #ef499e 75%, #ef499e 100%);
+}
+
+footer{
+    height: 80px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img{
+    height: 28px;
+    margin: 0px 5px;
+}
+
+#mat{
+    color: #ef499e;
+}
+
+
+
+/* -----------------------MEDIA QUERIES------------------------- */
+
+@media screen and (max-width: 992px) 
+{
+    nav{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .enlaces{
+        margin-left: 100px;
+        width: 46%;
+    }
+
+    .productPage{
+        height: 540px;    
+    }
+
+    .texto p{
+        width: 420px;
+    }
+
+    #botones{
+        width: 300px;
+    }
+    .uno{
+        width: 160px;
+    }
+
+    .dos{
+        width: 120px;
+        
+    }
+
+    #phone{
+        height: 400px;
+        padding-top: 30px;
+        padding-right: 140px;
+    } 
+
+    .funciones{
+        height: 460px;
+    }
+
+    #parrafo{
+        height: 270px;
+        width: 370px;
+    }
+
+    #pc{
+        height: 270px;
+    }
+
+    .boxes article{
+        width: 24%;
+    }
+
+}
+
+@media screen and (max-width: 768px) 
+{
+    nav{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .enlaces{
+        width: 54%;
+        font-size: 16px;
+    }
+
+    #descarga{
+        height: 42px;
+        width: 110px;
+        font-size: 16px;
+    }
+
+    .productPage{
+        height: 520px;    
+    }
+
+    .texto{
+        width: 340px;
+        height: 340px;
+    }
+
+    .texto h1{
+        font-size: 68px;
+    }
+
+    .texto p{
+        font-size: 18px;
+        width: 340px;
+    }
+
+    #phone{
+        height: 380px;
+        padding-top: 20px;
+        padding-right: 80px;
+    } 
+
+    #botones{
+        width: 280px;
+    }
+
+    .detalles{
+        width: 46%;
+        font-size: 15px;
+    }
+
+    .uno{
+        width: 150px;
+    }
+
+    .dos{
+        width: 110px;
+    }
+
+    .funciones{
+        height: 430px;
+    }
+
+    .funciones h1{
+        font-size: 52px;
+    }
+
+    #parrafo{
+        height: 250px;
+        width: 320px;
+        font-size: 17px;
+    }
+
+    #parrafo h2{
+        font-size: 32px;
+    }
+
+    #pc{
+        height: 250px;
+    }
+
+    .plans h1{
+        font-size: 54px;
+    }
+
+    .plans p{
+        font-size: 17px;
+        width: 600px;
+    }
+
+    .boxes article{
+        width: 26%;
+    }
+
+    .img img{
+        height: 80px;
+        width: 80px;
+    }
+
+    #rosa{
+        font-size: 19px;
+    }
+    
+    #azul{
+        font-size: 19px;
+    }
+
+    #costos{
+        height: 68px;
+    }
+    
+    #costos p{
+        font-size: 34px;
+    }
+    
+    #costos span{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    nav{
+        width: 100%;
+    }
+
+    .enlaces{
+        width: 68%;
+        margin: 0;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .productPage{
+        height: 720px;  
+        background-size: 100% 50%;
+        background-position: bottom;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .texto{
+        width: 340px;
+        height: 300px;
+    }
+
+    .texto h1{
+        font-size: 64px;
+    }
+
+    .texto p{
+        font-size: 17px;
+        width: 380px;
+    }
+
+    #botones{
+        width: 260px;
+        height: 50px;
+    }
+
+    .detalles{
+        height: 42px;
+        font-size: 15px;
+    }
+
+    .uno{
+        width: 145px;
+    }
+
+    .dos{
+        width: 105px;
+    }
+
+    #phone{
+        height: 320px;
+        margin-top: 30px;
+        padding: 0;
+    } 
+
+    .funciones{
+        height:660px;
+        
+    }
+
+    .funciones h1{
+        font-size: 54px;
+        padding: 20px 0px;
+    }
+
+    .contenido{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    #pc{
+        height: 240px;
+        width: 450px;
+    }
+
+    #parrafo{
+        height: 250px;
+        width: 360px;
+        margin-bottom: 30px;
+        font-size: 17px;
+    }
+
+    #parrafo h2{
+        font-size: 30px;
+    }
+
+    .plans h1{
+        font-size: 54px;
+    }
+
+    .plans p{
+        width: 500px;
+    }   
+
+    .boxes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .boxes article{
+        width: 280px;
+    }   
+
+}
+
+
+
+@media screen and (max-width: 480px) 
+{
+    nav{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .enlaces{
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #descarga{
+        height: 38px;
+        width: 110px;
+        font-size: 16px;
+    }
+
+    .productPage{
+        height: 750px;
+        background-size: 100% 50%;
+        background-position: bottom;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .texto{
+        width: 310px;
+        height: 300px;
+    }
+
+    .texto h1{
+        font-size: 64px;
+    }
+
+    .texto p{
+        font-size: 17px;
+        width: 310px;
+    }
+
+    #botones{
+        width: 260px;
+        height: 50px;
+    }
+
+    .detalles{
+        height: 42px;
+        font-size: 15px;
+    }
+
+    .uno{
+        width: 145px;
+    }
+
+    .dos{
+        width: 105px;
+    }
+
+    #phone{
+        height: 310px;
+        padding: 0;
+    }
+
+    .funciones{
+        height:640px;
+        
+    }
+
+    .funciones h1{
+        font-size: 54px;
+        padding: 20px 0px;
+    }
+
+    .contenido{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    #pc{
+        height: 220px;
+        width: 400px;
+    }
+
+    #parrafo{
+        height: 250px;
+        width: 360px;
+        margin-bottom: 30px;
+        font-size: 17px;
+    }
+
+    #parrafo h2{
+        font-size: 30px;
+    }
+
+    .plans h1{
+        font-size: 54px;
+    }
+
+    .plans p{
+        font-size: 17px;
+        width: 480px;
+    }   
+
+    .boxes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .boxes article{
+        width: 250px;
+    }
+
+    .sociales{
+        width: 200px;
+    }
+}
+
+
+
